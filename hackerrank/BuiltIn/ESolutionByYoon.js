@@ -19,9 +19,8 @@ function calculate(){
 
         for(var i = 0; i < arr1.length; i++){
             for(var j = 0; j < arr2.length; j++){
-                if(arr1[i].constructor === Array){
+                if(arr1[i].constructor === Array)
                     rtn.push(arr1[i].concat(arr2[j]));
-                }
                 else
                     rtn.push([arr1[i], arr2[j]]);
             }
